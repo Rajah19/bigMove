@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada:700');
+
+
+$widthTab:768px;
+
+$footerBgColor:#2f4344;
+$footerColor: #ffffff;
+
+$manuColor: rgb(224,244,245);
+$sideColor: #e9f4f5;
+
+$handOverColor:#0be6f1;
+
+ .navbar{   
+    background-color:$manuColor;   
+    min-height: 20px !important;       
+    ul{
+       list-style:none;      
+       font-weight: bold;
+       color:#000000;
+       } li {
+          margin-right:50px;
+       }li:hover{
+          background-color:$handOverColor; 
+       }      
+       
+     .mainManu{
+        border:none;
+     }
+     
+     .bottom{
+         height: 10px !important;
+         text-align:center;
+     }
+  }  
+  
+    
+  
+  .jumbotron{
+      
+       text-align: center;     
+       margin-top:-70px; 
+       margin-bottom:0px;
+       background : url('../../images/road.gif');
+       border:0px;
+       color:#ffffff;
+       font-family: 'Lemonada', cursive;
+       
+        @media (max-width: $widthTab) {
+            padding-top: 65px;            
+            height: 150px !important;
+            
+            .jumb{
+                 padding-right:0px !important; 
+            }
+        } 
+        
+         @media (min-width: $widthTab) { 
+             padding: 100px 25px;
+        }       
+      
+  }
+  
+  .sideColor{
+      background-color:$sideColor;
+      height: 500px;
+      padding:0px !important;
+      margin:0px;
+      font-weight: bold;
+      
+       ul{
+           list-style:none;         
+           padding-top:25px;
+           padding-left:20px !important;
+           padding-right:20px !important;
+           
+        }li{           
+           margin:8px 0px;
+        }li:hover{
+           background-color:$handOverColor;        
+        }
+  }
+
+                      
+   .container{
+        @media (max-width: $widthTab) {  
+            padding:0px !important; 
+        }
+    }      
+       
+  
+  
+   .navConta{
+         padding-left: 75px !important;
+         
+         @media (max-width: $widthTab) {
+             padding: 0 40px !important;
+         }
+    }
+    
+    .footerCon{
+        padding: 15px 0 0 0 !important;
+        background-color:$footerBgColor;
+        color:$footerColor;
+        
+        ul{
+           list-style:none;
+           padding-left:100px;                     
+           
+           @media (max-width: $widthTab) {
+             padding:0px !important;
+           }li{
+               margin: 2px 0;
+           }li:hover{
+              background-color:$handOverColor;        
+           }
+        }
+        
+       
+         @media (max-width: $widthTab) {
+             padding:15px !important;
+         }     
+             
+    }
+    
+    
+    .thumbnail{
+        border:0 !important;        
+        img{
+             height: 150px !important;
+        }
+        
+        .caption:hover{
+            background-color:$handOverColor;        
+        }
+       
+    }
+    
+    
+    
+    
+  
+  
+  
+  
