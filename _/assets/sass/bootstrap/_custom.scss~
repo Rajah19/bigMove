@@ -36,6 +36,10 @@ $handOverBgColor:#0be6f1;
          height: 10px !important;
          text-align:center;
      }
+     
+     img{
+        margin:0px;
+     }
   }  
   
     
@@ -143,6 +147,14 @@ $handOverBgColor:#0be6f1;
         .caption{
              text-align: justify;           
         }
+       
+    }
+    
+    
+    .mainContainer{
+         p{
+             text-align:justify;
+         } 
        
     }
     

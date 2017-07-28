@@ -5825,6 +5825,8 @@ button.close {
   .navbar .bottom {
     height: 10px !important;
     text-align: center; }
+  .navbar img {
+    margin-top: -10px; }
 
 .jumbotron {
   text-align: center;
