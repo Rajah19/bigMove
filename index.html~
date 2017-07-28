@@ -27,7 +27,7 @@
         <span class="sr-only">Toggle navigation</span>
         <span class="">MENU</span>
       </button>
-      <a class="navbar-brand" href="#"><img src="../images/Truck-with-Site-Office-icon.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="images/Truck-with-Site-Office-icon.png" alt=""></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,7 +54,7 @@
          <div class="col-md-2 hidden-xs sideColor"> 
              
               <ul class="">
-                   <li class="">SERVICES</li>
+                   <li class=""> SERVICES</li>
                    <li class="">AIR DELIVERY</li>
                    <li class="">GROUND SHIPPING</li>
                    <li class="">SEA DELIVERY</li>
