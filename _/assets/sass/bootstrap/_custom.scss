@@ -9,7 +9,9 @@ $footerColor: #ffffff;
 $manuColor: rgb(224,244,245);
 $sideColor: #e9f4f5;
 
-$handOverColor:#0be6f1;
+$handOverColor:#cdf726;
+$handOverBgColor:#0be6f1;
+
 
  .navbar{   
     background-color:$manuColor;   
@@ -21,7 +23,9 @@ $handOverColor:#0be6f1;
        } li {
           margin-right:50px;
        }li:hover{
-          background-color:$handOverColor; 
+          color:$handOverColor !important;
+          background-color:$handOverBgColor; 
+          font-size:1.2em;         
        }      
        
      .mainManu{
@@ -77,7 +81,7 @@ $handOverColor:#0be6f1;
         }li{           
            margin:8px 0px;
         }li:hover{
-           background-color:$handOverColor;        
+           background-color:$handOverBgColor;        
         }
   }
 
@@ -112,7 +116,7 @@ $handOverColor:#0be6f1;
            }li{
                margin: 2px 0;
            }li:hover{
-              background-color:$handOverColor;        
+              background-color:$handOverBgColor;        
            }
         }
         
@@ -131,7 +135,13 @@ $handOverColor:#0be6f1;
         }
         
         .caption:hover{
-            background-color:$handOverColor;        
+            background-color:$handOverBgColor;
+            font-size:1.2em;  
+                
+        }
+        
+        .caption{
+             text-align: justify;           
         }
        
     }

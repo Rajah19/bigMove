@@ -5817,7 +5817,9 @@ button.close {
   .navbar li {
     margin-right: 50px; }
   .navbar li:hover {
-    background-color: #0be6f1; }
+    color: #cdf726 !important;
+    background-color: #0be6f1;
+    font-size: 1.2em; }
   .navbar .mainManu {
     border: none; }
   .navbar .bottom {
@@ -5891,6 +5893,9 @@ button.close {
   .thumbnail img {
     height: 150px !important; }
   .thumbnail .caption:hover {
-    background-color: #0be6f1; }
+    background-color: #0be6f1;
+    font-size: 1.2em; }
+  .thumbnail .caption {
+    text-align: justify; }
 
 /*# sourceMappingURL=bootstrap.css.map */
